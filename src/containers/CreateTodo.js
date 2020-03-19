@@ -12,7 +12,7 @@ class CreateTodo extends Component{
         this.onChangeTodoText = this.onChangeTodoText.bind(this);
     }
 
-    onChangeTodoText = (e) => {
+    onChangeTodoText(e){
         this.setState({
             todotext: e.target.value
         })
